@@ -3,6 +3,10 @@ import pymysql
 from phi.agent import Agent
 from phi.model.ollama import Ollama
 
+# llm = Groq(
+#     id="llama-3.3-70b-versatile",
+#     api_key="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" , # Replace with your actual API key
+# )
 
 class MySQLTool:
     def __init__(self, connection, schema):
